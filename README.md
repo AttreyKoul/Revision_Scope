@@ -1,7 +1,7 @@
 # Revision_Scope
 This is the readme for this paper: When Interpretability Measures Don't Transfer: Construct Validity in Reasoning-Trace Revision Analysis
 
-The files in here have to be run in a very specific order in order for everything to work.
+The files in here have to be run in a very specific order in order for everything to work, they are currentlyt zipped up, and ened to be unzipped.
 
 Task_1_Data_Pipeline Contains the trace generation code, outlined in methods->setup-> trace generation and revision classification, has to be run on A100, usually takes ~ 8 hours.
 Label_thing_planning_study contains the revisions candidate serachign and calsisfication for scope. This is outlined in the same place in the paper as the last notebook. This can be run end to end without any issues, and can be run on cpu, as long the runner has a OpenAI-API Key. Relatively short, maybe ~ 1 hour
